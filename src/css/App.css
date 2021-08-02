@@ -1,0 +1,205 @@
+.modview {
+  display: block;
+  color: white;
+  width: 100vw;
+  border-radius: 1%;
+  border-style: none;
+  background-image: linear-gradient(to right, rgb(8, 8, 8), rgb(252, 252, 252));
+}
+.clk {
+  margin-top: 1em;
+  width: 10%;
+  height: 3.4em;
+  background-color: white;
+  text-decoration: none;
+  border-style: inherit;
+  color: black;
+  font-style: italic;
+  /* border-radius: 100%; */
+}
+.descp {
+  display: inline-block;
+  width: 35%;
+  height: 20%;
+  text-align: center;
+  font-family: fantasy;
+  overflow-y: hidden;
+  margin-left: 3em;
+}
+.im {
+  height: 20%;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+.im img {
+  width: 70%;
+  height: 90%;
+  margin: 0.5em;
+}
+.ot {
+  text-align: center;
+  padding: 2em;
+}
+.sug {
+  width: 80%;
+  padding: 1em;
+  background-color: white;
+}
+.sbox {
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+  display: block;
+}
+label {
+  margin: auto;
+  display: block;
+  font-weight: bold;
+  font-size: 2em;
+}
+.searchbar {
+  width: 80%;
+  padding: 1em;
+}
+.rslt {
+  width: 100%;
+  margin-top: 2em;
+  height: 450px;
+  overflow-y: scroll;
+}
+.rslt::-webkit-scrollbar {
+  width: 10px;
+}
+.rslt::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.rslt::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgb(245, 17, 17);
+}
+.scard {
+  /* width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5mm;
+  text-decoration: none;
+  color: white; */
+  width: 100%;
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.scard:hover {
+  background-color: white;
+  color: black;
+}
+.scard img {
+  display: inline;
+}
+.txt {
+  display: inline-block;
+  width: 40%;
+  overflow-wrap: break-word;
+}
+h3 {
+  margin: auto;
+  margin-left: 5em;
+  overflow-x: hidden;
+  /* /* margin-bottom: 4em; */
+}
+.more {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  padding: 1em;
+}
+.srchbox {
+  background-image: linear-gradient(to right, rgb(111, 0, 255), rgb(255, 0, 0));
+  padding: 5em;
+  color: white;
+}
+.srchcard {
+  display: inline-block;
+  width: 35%;
+  height: 35%;
+  margin: 1vw;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 4vw;
+  margin-left: 4vw;
+}
+.srchcard:hover {
+  background-color: white;
+  color: black;
+}
+.srchbar {
+  margin: auto;
+  width: 30vw;
+  padding: 1em;
+}
+.srchcard h3 {
+  text-align: center;
+  margin: auto;
+  margin-top: 3em;
+}
+.srchcard img {
+  width: 80%;
+  margin-top: 30%;
+}
+.pagination {
+  text-align: center;
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  padding: 3em;
+  margin: 3em;
+}
+.clck {
+  padding: 1em;
+  background-color: rgb(253, 253, 253);
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 5%;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+Link {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .srchbox {
+    display: block;
+    padding: 0.5em;
+  }
+  label {
+    text-align: center;
+    margin: auto;
+  }
+  .srchbar {
+    width: 100vw;
+    display: block;
+    padding: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .srchcard {
+    display: block;
+    width: 90vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    height: max-content;
+  }
+  .srchcard img {
+    width: 50%;
+    margin: 1em;
+  }
+  .clck {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
